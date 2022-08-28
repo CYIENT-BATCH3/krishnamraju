@@ -1,0 +1,29 @@
+
+/*#include <stdio.h>
+enum lcd{display=0x08,clear=0x01,firstline=0x80,secondline=0xc0};
+int main()
+{
+    enum lcd commands;
+    commands=display;
+    printf("%x\n",commands);
+    return 0;
+    
+    
+}*/
+#include <stdio.h>
+enum fruit{mango=1,gaphes=2,orange=3};
+int main()
+{
+    enum fruit num;
+    num=orange;
+    printf("%d\n",num);
+    
+    if(mango==4)
+    { 
+        printf("mango");
+    }
+   else
+   {
+       printf("friut not found");
+   }
+}

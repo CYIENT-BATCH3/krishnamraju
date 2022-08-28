@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    int a=10,b=20,c=50; // intialising the variables
+    // printing the biggest among three with the help of printf statement
+    (a>b && a>c)?printf("a is bigger %d",a):(b>c)?printf("b is bigger %d",b):printf("c is bigger %d",c);
+}

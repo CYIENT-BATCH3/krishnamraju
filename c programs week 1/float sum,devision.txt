@@ -1,0 +1,60 @@
+
+#include <stdio.h>
+
+int main()
+{
+ int int1,int2,int3,int4,int5; //declaring the integer variables
+ char char1,char2,char3;   // declaring the character variables
+ float float1,float2,float3,float4; //declaring the float variables
+ printf("enter the 5 integer values\n");
+ //reaidng 5 integer values with the help of scanf statement
+ scanf("%d",&int1);
+ scanf("%d",&int2);
+ scanf("%d",&int3);
+ scanf("%d",&int4);
+ scanf("%d",&int5);
+ printf("enter the 3 charccter values\n");
+//reaidng 3 character values with the help of scanf statement
+ scanf(" %c",&char1);
+ scanf(" %c",&char2);
+ scanf(" %c",&char3);
+ printf("enter the 4 floating values\n");
+//reaidng 4 float values with the help of scanf statement
+ scanf("%f",&float1);
+ scanf("%f",&float2);
+ scanf("%f",&float3);
+ scanf("%f",&float4);
+// printing 5 integer values and 3 character values and 4 floating values with the help of printf statement
+ printf("integer value is %d\n",int1);
+ printf("integer value is %d\n",int2);
+ printf("integer value is %d\n",int3);
+ printf("integer value is %d\n",int4);
+ printf("integer value is %d\n",int5);
+ 
+ printf("charcter is %c\n",char1);
+ printf("charcter is %c\n",char2);
+ printf("charcter is %c\n",char3);
+ 
+ printf("floating value is %f\n",float1);
+ printf("floating value is %f\n",float2);
+ printf("floating value is %f\n",float3);
+ printf("floating value is %f\n",float4);
+ //declaring the variables
+ float a,b,sum;
+    int sum_int;
+ // assigning values to the variables
+    a=10.2;
+    b=5.1;
+    sum=a+b;
+ //printing output with the help of printf statement
+    printf("sum of two float values:%f\n",sum);
+    sum_int=a+b;
+    printf("sum of two int values:%d\n",sum_int);
+     
+    printf("*******************\n");
+    float f;
+    f=sum_int/sum;
+    printf("sum of integers devided by float sum:%f\n",f);
+
+    return 0;
+}

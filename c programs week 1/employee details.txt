@@ -1,0 +1,22 @@
+
+ 
+ #include<stdio.h>
+ struct employee{
+     int ID;   // declaring variables
+     char name;
+     int salary;
+     
+ }details;
+ int main()
+ {
+ printf("enter the details of employee\n");
+  //reading employee details from keyboard with the help of scanf statement
+ scanf("%d",&details.ID);
+ scanf(" %s",&details.name);
+ scanf("%d",&details.salary);
+  //printing the employee details with the help of printf statement
+ printf("employee ID is:%d\n",details.ID);
+ printf("employee name:%c\n",details.name);
+ printf("employee salary:%d\n",details.salary);
+ 
+ }

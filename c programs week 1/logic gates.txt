@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+int main()
+{
+
+    int a,b,rev; //declaring a and b values
+    a=0;      // assigning a value
+    b=0;       //assigning b value
+    (a&&b)?puts("true"):puts("false"); 
+    printf("\n");
+    (a||b)?puts("treu"):puts("false");
+    printf("\n");
+    !(a>=b)&&(a<=b)||(a==b)?puts("true"):puts("false");
+    return 0;
+    
+}

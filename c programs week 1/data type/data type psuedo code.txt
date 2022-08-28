@@ -1,0 +1,6 @@
+
+step1:start program
+step2:declaring one integer variable and one float variable and one character variabel.
+step3:reading the variable values from keyboard(int,float,char)with the help of scanf statement
+step4:printing the integer value and float value and char value with the help of printf statement
+step5:end program

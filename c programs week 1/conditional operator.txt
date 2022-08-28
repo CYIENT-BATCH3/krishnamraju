@@ -1,0 +1,12 @@
+
+#include<stdio.h>
+int main()
+{
+
+    int a,b,d1,d2,rev; //declaring a and b values
+    a=19;       // assigning a value
+    b=27;       //assigning b value
+    (a>b)?puts("true"):puts("false"); // using conditional operator to check wheather two operands are equal or not
+    return 0;
+    
+}
