@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int marks; // declaring the variable
+    printf("enter the marks\n");
+    scanf("%d",&marks); //reading value from keyboard with the help of scanf statement
+if(marks>=70 && marks<=100)
+{
+    printf("distiction");
+}
+else if(marks>=60 && marks<70)
+{
+    printf("first class");
+}
+else if(marks>=50 && marks<60)
+{
+    printf("pass");
+}
+else
+{
+    printf("fail");
+}
+}

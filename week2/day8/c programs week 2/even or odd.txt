@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int num; //declaring the variable
+    printf("enter the number\n");
+    scanf("%d",&num); //reading the value from keyboard with the help of scanf statement
+if(num%2==0)
+{
+    printf("number is even"); //printing even number 
+}
+else
+{
+    printf("number is odd"); //printing odd number
+}
+}

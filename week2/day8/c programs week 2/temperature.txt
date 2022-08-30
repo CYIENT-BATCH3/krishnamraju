@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int temp; //declaring the variable
+    printf("enter the temperature\n");
+    scanf("%d",&temp); //reading the value from keyboard with the help of scanf statement
+if(temp<=0)
+{
+    printf("freezing weather"); //printing output 
+}
+else if(temp >0 && temp <=10)
+{
+    printf("very cold weather"); //printing output
+}
+else if(temp >10 && temp <=20)
+{
+    printf("cold weather"); //printing output
+}
+else if(temp >20 && temp <=30)
+{
+    printf("normal in temp"); //printing output
+}
+else if(temp >30 && temp <=40)
+{
+    printf("hot"); //printing output
+}
+else if(temp >40)
+
+{
+    printf("very hot"); //printing output
+}
+}

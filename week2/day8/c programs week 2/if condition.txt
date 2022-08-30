@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;  //declaring the variables
+    printf("enter a and b and c values\n"); 
+    scanf("%d%d%d",&a,&b,&c);  //reading inputs from keyboard with the help of scanf statement
+if(a&&b||c)
+{
+    printf("it is true"); //printing the output with the help of printf statement
+}
+else
+{
+    printf("it is not true");  //printing the output with the help of printf statement
+}
+
+}

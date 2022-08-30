@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+ int num,i;
+ printf("enter the number\n");
+ scanf("%d",&num);
+ i=1;
+ do
+ {
+     printf("%d\t",i);
+     i++;
+ }
+ while(i<=num);
+     
+ }
+
