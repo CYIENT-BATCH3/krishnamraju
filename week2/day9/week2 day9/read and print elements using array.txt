@@ -1,0 +1,18 @@
+#include<stdio.h>  //preprocessor directive
+ int main()    
+{    
+int a[10],i,n;    //declaring the variables
+printf("enter the number\n"); //giving input 
+scanf("%d",&n);   ////reading input from keyboard with the help of scanf statement
+printf("enter the elements\n");
+for(i=0;i<n;i++)  //for loop to read elements from the keyboard
+{
+scanf("%d",&a[i]);
+}
+ printf("the array elements are:\n");
+for(i=0;i<n;i++)
+{
+    printf("%d\t",a[i]); //printing elements using printf statement
+}
+return 0;
+}
