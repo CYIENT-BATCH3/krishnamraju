@@ -1,0 +1,14 @@
+
+
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char str[20]; //declaring string
+    int count=0,i;
+    printf("enter the string\n");//taking string from user
+    scanf("%[^\n]s",str); //reading string 
+    i=strlen(str);
+    printf("string length is:%d",i);
+    return 0;
+}

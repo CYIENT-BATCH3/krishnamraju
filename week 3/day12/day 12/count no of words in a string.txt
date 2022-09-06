@@ -1,0 +1,26 @@
+/*algorithem
+1)Start
+2)give the string value and initialize count.
+3)now with the help of while of (strlen(st)!='\0')
+4)now if str==null then count gets incremented
+5)with the help of printf statement print the count value
+6)stop*/
+
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char str[20];
+    int count=0,i;
+    printf("enter the string\n");
+    scanf("%[^\n]s",str);
+    for(i=0;i<strlen(str);i++)
+    {
+       if(str[i] == ' ' || str[i] == '\n' || str[i] == '\t')
+        count++;
+    }
+    printf("no of words are:%d",count+1);
+
+    
+    return 0;
+}

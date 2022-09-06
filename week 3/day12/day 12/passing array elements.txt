@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h>
+
+void displaystring(char []);
+int passintall(int []);
+void passhar(int x,int y);
+int main()
+{
+    int passint[]={1,2,3,4};
+    int answer=passintall(passint);
+    
+    printf("%d",answer);
+    
+    
+   return 0; 
+    }
+    int passintall(int intval[])
+    {
+        int sum=0;
+        for(int i=0;i<4;i++)
+        {
+            sum=sum+intval[i];
+        }
+        return sum;
+    }
+void passhar(int x,int y)
+{
+    int sum1=x+y;
+    printf("%d\n",sum1);
+}
+
+    
