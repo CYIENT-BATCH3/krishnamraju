@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main()
+{ 
+   int n,i,num; //declaring variables
+   printf("enter the no of values\n");
+   scanf("%d",&n); //reading values from keyboard
+   for(i=1;i<n;i++) 
+   {
+      num=rand() %100;
+      printf(" %d ",num); //printing random numbers
+
+    }
+}
+
+

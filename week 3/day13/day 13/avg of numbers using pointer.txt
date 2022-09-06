@@ -1,0 +1,26 @@
+#include <stdio.h>
+float avg(int *a,int n); //function declaration
+int main()
+{ 
+   int a[5],i,n;   //declaring variables
+   float avg;    //declaring float variable
+   printf("enter the no of elements\n");
+   scanf("%d",&n); //taking value
+   printf("enter the elements\n");
+    for(int i=0;i<5;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+   result=avg(a,n);
+}
+float avg(int *a,int n)
+{
+    float sum=0,avg;
+   for(int i=0;i<n;i++)
+   {
+       sum=sum+a[i];
+   }
+   avg=sum/n;
+    printf("%f",avg);
+}
+

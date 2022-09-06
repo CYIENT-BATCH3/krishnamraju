@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+void swap(int *x,int *y); //function declaration
+int main()
+{
+    int a,b,*p,*q; //declaring integer type variables
+    printf("enter the a and b values\n"); //
+    scanf("%d%d",&a,&b); //giving a,b values from keyboard
+    p=&a;
+    q=&b;
+    swap(&a,&b); //funtion call(a,b values are passing to x,y)
+}
+void swap(int *x,int *y) //function defination
+{
+    //swaping condition
+   int *temp;
+   *temp=*x;
+   *x=*y;
+   *y=*temp;
+   printf("the values after swap are:\n%d\n%d\n",*x,*y);//printing the values of x,y
+  // printf("the value of address after swap are:\n%d\n%d",x,y);
+}  
+
