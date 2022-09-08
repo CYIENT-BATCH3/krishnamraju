@@ -1,0 +1,14 @@
+#include<stdio.h>
+const int MAX = 3;
+int main()
+{
+    char *names[]={"raj","ram","rai"};//initialziation 
+    int i=0;
+    for(i=0;i<MAX;i++)
+
+    {
+        printf("value of names[%d]=%u--%s\n",i,names[i],names[i]);
+    }
+    
+}
+

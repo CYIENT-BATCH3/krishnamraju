@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a=2; //declaring integer variable
+    int *p1; //declaring pointer variable
+    int **p2; //declaring double pointer variable 
+    int ***p3; //declaring triple pointer variable
+    p1=&a; //assigning address of a to p1
+    printf("address of a is:%d\n",p1); //printing address of a 
+    printf("value of a is:%d\n",*p1); //printing value of a
+    p2=&p1;
+    printf("address of p1 is:%d\n",p2);
+    printf("value of p1 is:%d\n",*p2);
+    p3=&p2;
+    printf("address of p2 is:%d\n",p3);
+    printf("value of p2 is:%d\n",*p3);
+    
+}
+
+
+

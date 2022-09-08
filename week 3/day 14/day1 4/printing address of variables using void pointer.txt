@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int a=2;//initialziation 
+    float b=20.5;
+    char c='r';
+    double d=5000;
+    void *p; //declaring void pointer
+    p=&a; //assigning address of int type variable to p
+    printf(" after type casting address of a is:%d\n",(int*)p);
+    p=&b; //assigning address of float variable to p
+    printf("after tyoe casting address of b is:%d\n",(float*)p);
+    p=&c;
+    printf("after type casting address of c is:%d\n",(char*)p);
+    p=&d;
+    printf("after type casting address of d is:%d\n",(double*)p);
+}
+
