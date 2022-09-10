@@ -1,0 +1,38 @@
+#include <stdio.h>
+union employee //sructure declaration
+{
+    int emp_id; //declaring integer variable
+    //char name[20];//declaring character type array
+    float salary; //declaring float variable
+    //char name[20];
+    //long int phone;
+}e1[10];
+
+int main()
+{
+    int n,i; 
+   // union employee e1[10]; //structue defination
+    printf("enter no of employees\n");
+    scanf("%d",&n);
+    for(i=0;i<n;i++) //for loop used for reading details
+    {
+   // printf("enter the name\n"); //asking user to enter employee name
+    //scanf("%s",e1[i].name); //reading employee name from keyboard
+    printf("enter employee id\n");
+    scanf("%d",&e1[i].emp_id);
+    printf("enter employee salary\n");
+    scanf("%f",&e1[i].salary);
+   //printf("enter employee phone no\n");
+    //scanf("%ld",&e1[i].phone);
+    }
+        for(i=0;i<n;i++) //for loop used for printing details
+    {
+    //printing employee details with the help of printf statement
+    //printf("employee name:%s\n",e1[i].name); 
+    printf("employee id:%d\n",e1[i].emp_id);
+    printf("employee salary:%f\n",e1[i].salary);
+    //printf("employee phone no:%ld",e1[i].phone);
+   // printf("size of memory for uninon:%f\n",e1[i].salary);
+    }
+    return 0;
+}
