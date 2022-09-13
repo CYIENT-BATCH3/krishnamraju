@@ -1,0 +1,33 @@
+#include <stdio.h> //including the header file for input and outputu
+
+void output(int id,char *name,float salary);
+int main() //defining main function  
+{
+ //declaring variables of diff data types    
+ int a; 
+ char b[20];
+ float c;
+ printf("enter the empid\n"); //asking user to enter employee id
+ scanf("%d",&a); //reading employee id 
+ printf("enter the name\n"); 
+ scanf("%s",b);
+ printf("enter the salary\n"); 
+ scanf("%f",&c);
+ output(a,b,c);
+}
+    void output(int empid,char *name,float salary)
+    {
+    //printing student details with the help of printf statement
+    printf("employee id is %d\n",empid); 
+    printf("name is %s\n",name);
+    printf("salary is %f\n",salary);
+    return 0;
+}
+
+
+	
+
+	
+
+
+	

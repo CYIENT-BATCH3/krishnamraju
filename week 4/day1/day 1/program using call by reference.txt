@@ -1,0 +1,40 @@
+#include <stdio.h> //including the header file for input and output
+struct employee //structure declaration
+{
+    //declaration of structure members
+    int empid; 
+    char name[20];
+    float salary;
+};
+void ouput(struct employee *rec); //function declaration
+int main() //defining main function
+{
+ struct employee record; //structure variable declaration
+ printf("enter the empid\n"); //asking user to enter employee id
+ scanf("%d",&record.empid); //reading employee id 
+ //record.age=15;
+ //record.name[20]="raj";
+ printf("enter the name\n"); 
+ scanf("%s",record.name);
+ printf("enter the salary\n"); 
+ scanf("%f",&record.salary);
+ ouput(&record); //fuction call
+ return 0;
+}
+void output(struct employee *rec) //function defination
+{
+    //printing student details with the help of printf statement
+    printf("employee id is %d\n",rec->empid); 
+    printf("name is %s\n",rec->name);
+    printf("salary is %f\n",rec->salary);
+}
+
+
+	
+}
+
+
+	
+
+
+	

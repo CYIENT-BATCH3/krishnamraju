@@ -1,0 +1,27 @@
+#include <stdio.h>
+struct student //structure declaration
+{
+    int age; //declaration of structure members
+    char name[20];
+};
+void details(struct student record); //function declaration
+int main() 
+{
+ struct student record;
+ printf("enter the age\n"); //asking user to enter age
+ scanf("%d",&record.age); //reading age 
+ //record.age=15;
+ //record.name[20]="raj";
+ printf("enter the name\n"); 
+ scanf("%s",&record.name);
+ details(record); //function call
+ return 0;
+}
+void details(struct student record) //function defination
+{
+    //printing student details with the help of printf statement
+    printf("age is %d\n",record.age); 
+    printf("name is %s\n",record.name);
+}
+
+	
